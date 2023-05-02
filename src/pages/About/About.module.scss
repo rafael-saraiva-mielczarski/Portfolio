@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+        h1 {
+            font-size: 65px;
+            color: white;
+            font-weight: bold;
+
+            span {
+                color: #FF0BE7;
+            }
+        }
+
+        p {
+            padding-top: 20px;
+            color: white;
+            width: 80%;
+        }
+    }
+
+    .profile {
+        width: 400px;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 1;
+    }
+
+    .blur {
+        position: absolute;
+        z-index: 0;
+        top: -20px;
+        left: 74%;
+        background: linear-gradient(180deg,rgba(255, 0, 238, 0) 0%,#FF0BE7 100%);
+        filter: blur(150px);
+        width: 20%;
+        height: 50%;
+    }
+}    

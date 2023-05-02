@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .personal {
+        display: flex;
+        align-items: center;
+
+        .img {
+            width: 70px;
+            height: 100%;
+        }
+
+        h3 {
+            color: #FF0BE7;
+        }
+    }
+
+    .nav {
+        display: flex;
+        z-index: 1;
+
+        p {
+            color: white;
+            cursor: pointer;
+            padding: 0 15px;
+        }
+    }
+}
