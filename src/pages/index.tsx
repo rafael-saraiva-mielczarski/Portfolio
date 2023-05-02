@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import { Poppins } from 'next/font/google'
 import Header from '@/components/Header/Header'
 import About from './About/About'
 import Skills from './Skills/Skills'
-
-
 
 export default function Home() {
   return (

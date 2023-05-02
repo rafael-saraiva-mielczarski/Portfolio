@@ -6,7 +6,7 @@ import profile from '../../assets/profileArt.jpg'
 export default function About() {
     
     return(
-        <div>
+        <div id="about">
             <Container>
                 <div className={styles.about}>
                     <div className={styles.text}>

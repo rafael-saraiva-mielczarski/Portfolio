@@ -4,7 +4,7 @@ import styles from './Skills.module.scss'
 export default function Skills() {
 
     return(
-        <div>
+        <div id="skills">
             <Container>
                 <div className={styles.skills}>
                     <div className={styles.iconsSection}>
@@ -12,13 +12,13 @@ export default function Skills() {
                         <span className={styles.icons}><i className="devicon-typescript-plain"></i></span>
                     <span className={styles.icons}><i className="devicon-figma-plain"></i></span>
                         <span className={styles.icons}><i className="devicon-css3-plain"></i></span>
-                        <span className={styles.icons}><i className="devicon-python-plain"></i></span>
                         <span className={styles.icons}><i className="devicon-html5-plain"></i></span>
-                        <span className={styles.icons}><i className="devicon-javascript-plain"></i></span>
+                        <span className={styles.icons}><i className="devicon-python-plain"></i></span>
+                        <span className={styles.icons}><i className="devicon-java-plain"></i></span>
                         <span className={styles.icons}><i className="devicon-angularjs-plain"></i></span>
                         <span className={styles.icons}><i className="devicon-github-plain"></i></span>
-                        <span className={styles.icons}><i className="devicon-postgresql-plain"></i></span>
-                        <span className={styles.icons}><i className="devicon-java-plain"></i></span>
+                        <span className={styles.icons}><i className="devicon-firebase-plain"></i></span>
+                        <span className={styles.icons}><i className="devicon-javascript-plain"></i></span>
                         <span className={styles.icons}><i className="devicon-mysql-plain"></i></span>
                     </div>
                     <div className={styles.skillsText}>

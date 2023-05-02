@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './header.module.scss'
 import logo from '../../assets/LogoRS.png'
 import { Container } from '@mui/material'
+import { Link } from 'react-scroll';
 
 export default function Header() {
 
@@ -13,10 +14,10 @@ export default function Header() {
                 <h3>Portfolio</h3>
             </div>
             <nav className={styles.nav}>
-                <p>About</p>
-                <p>Skills</p>
-                <p>Experience</p>
-                <p>Projects</p>
+                <Link to='about' spy={true} smooth={true} offset={-50} duration={700}><p>About</p></Link>
+                <Link to='skills' spy={true} smooth={true} offset={-50} duration={700}><p>Skills</p></Link>
+                <Link to='experience' spy={true} smooth={true} offset={-80} duration={500}><p>Experience</p></Link>
+                <Link to='projects' spy={true} smooth={true} offset={-80} duration={500}><p>Projects</p></Link>
             </nav>
             </div>
         </Container>
