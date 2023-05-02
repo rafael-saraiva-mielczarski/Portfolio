@@ -14,8 +14,8 @@ export default function Header() {
             </div>
             <nav className={styles.nav}>
                 <p>About</p>
-                <p>Experience</p>
                 <p>Skills</p>
+                <p>Experience</p>
                 <p>Projects</p>
             </nav>
             </div>
