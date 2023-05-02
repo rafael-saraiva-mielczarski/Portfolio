@@ -15,9 +15,9 @@ export default function Header() {
             </div>
             <nav className={styles.nav}>
                 <Link to='about' spy={true} smooth={true} offset={-50} duration={700}><p>About</p></Link>
-                <Link to='skills' spy={true} smooth={true} offset={-50} duration={700}><p>Skills</p></Link>
-                <Link to='experience' spy={true} smooth={true} offset={-80} duration={500}><p>Experience</p></Link>
-                <Link to='projects' spy={true} smooth={true} offset={-80} duration={500}><p>Projects</p></Link>
+                <Link to='skills' spy={true} smooth={true} offset={-120} duration={700}><p>Skills</p></Link>
+                <Link to='experience' spy={true} smooth={true} offset={-60} duration={700}><p>Experience</p></Link>
+                <Link to='projects' spy={true} smooth={true} offset={-80} duration={700}><p>Projects</p></Link>
             </nav>
             </div>
         </Container>

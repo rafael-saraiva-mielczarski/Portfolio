@@ -1,0 +1,85 @@
+.title {
+    font-size: 60px;
+    color: #FF0BE7;
+    font-weight: bold;
+    margin: 0;
+    z-index: 1;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 70px;
+
+    .xpText {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        margin: 20px 0 0;
+        z-index: 1;
+
+        p {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            width: 65%;
+            font-family: inherit;
+            font-size: 18px;
+            font-weight: 600;
+            background: linear-gradient(157.81deg, #ff7ef2 -43.27%, #fd94f3 12.19%, #ff30ea 29.82%, #ff3beb 51.94%, #FF0BE7 90.29%);;
+            border: none;
+            padding: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    }
+
+    .xpJobs {
+        z-index: 1;
+
+        .jobs {
+            display: flex;
+            margin-bottom: 40px;
+            margin-left: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            span {
+                background-color: #65055C;
+                border-radius: 10px;
+                padding: 10px;
+                height: fit-content;
+                width: fit-content;
+                margin-right: 10px;
+            }
+
+            h3{
+                color: white;
+            }
+    
+            p {
+                color: white;
+            }
+
+        }
+
+        .jobs:hover {
+            background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -182.6%, #FB7CEE 95.11%);;
+            border-radius: 10px;
+        }
+    }
+
+    .blur {
+        position: absolute;
+        z-index: 0;
+        left: 65%;
+        top: 1250px;
+        background: linear-gradient(180deg,rgba(255, 0, 238, 0) 0%,#FF0BE7 100%);
+        filter: blur(160px);
+        width: 35%;
+        height: 60%;
+    }
+}

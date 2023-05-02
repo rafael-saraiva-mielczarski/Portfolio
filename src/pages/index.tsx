@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Header from '@/components/Header/Header'
 import About from './About/About'
 import Skills from './Skills/Skills'
+import Experience from './Experience/Experience'
+import Projects from './Projects/Projects'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Header />
       <About />
       <Skills />
+      <Experience />
+      <Projects />
     </>
   )
 }
