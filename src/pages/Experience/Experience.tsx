@@ -2,6 +2,7 @@ import { Container } from "@mui/material";
 import styles from './Experience.module.scss'
 import BadgeIcon from '@mui/icons-material/Badge';
 import PostAddIcon from '@mui/icons-material/PostAdd';
+import Button from '@mui/material/Button';
 
 export default function Experience() {
     return (
@@ -12,7 +13,7 @@ export default function Experience() {
                     <div className={styles.xpText}>
                         <p>Take a brief look trough what I have done in my career. For a more detailed look feel free to download my resume in the button below.</p>
                         <a href={""} download="CV Rafael">
-                        <button className={styles.button}>Download Resume</button>
+                        <Button className={styles.button}>Download Resume</Button>
                         </a>
                     </div>
                     <div className={styles.xpJobs}>

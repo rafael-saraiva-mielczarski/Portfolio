@@ -5,3 +5,72 @@
     z-index: 1;
     text-align: center;
 }
+
+.subtitle {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+
+        .projectImage {
+            width: 450px;
+            height: 300px;
+            border: 3px solid #FF0BE7;
+            box-shadow: 8px 8px  #FF0BE7;
+            border-radius: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .projectText {
+            text-align: center;
+            width: 50%;
+            z-index: 1;
+            display: flex;
+            margin-left: 20px;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            h1 {
+                color: white;
+            }
+
+            p {
+                color: white;
+            }
+
+            .icons {
+                display: flex;
+                justify-content: space-evenly;
+
+                .icon {
+                    width: 60px;
+                    height: 100%;
+                }
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    width: 30%;
+                    font-family: inherit;
+                    font-size: 18px;
+                    font-weight: 600;
+                    background: linear-gradient(157.81deg, #ff7ef2 -43.27%, #fd94f3 12.19%, #ff30ea 29.82%, #ff3beb 51.94%, #FF0BE7 90.29%);;
+                    border: none;
+                    padding: 10px;
+                    border-radius: 20px;
+                    color: black;
+                    cursor: pointer;
+                    margin-top: 20px;
+                }
+            }
+        }
+}
