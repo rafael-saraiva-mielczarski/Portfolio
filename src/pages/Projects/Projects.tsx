@@ -6,6 +6,8 @@ import Button from "@mui/material/Button";
 import pic from '../../assets/profileArt.jpg'
 import logo from '../../assets/LogoRS.png'
 import NextPort from '../../assets/nextPortfolio.png'
+import ReactPort from '../../assets/ReactPort.png'
+import PBA from '../../assets/PBA.png'
 
 interface Project {
     id: string;
@@ -23,35 +25,35 @@ export default function Projects() {
             id: "1",
             title: "Piggy Bank App",
             description:
-            "The page you are in is my most recent project! Updating as new thing are being builtThe page you are in is my most recent project! Updating as new thing are being builtThe page you are in is my most recent project! Updating as new thing are being built",
-            image: pic,
+            "This was my College's Degree final project, it was fully build and developed by me, from the Figma design to the code. It is a financial application that let users take control of their finances. Mainly a Front-end app, with the database and authentication made with Firebase.",
+            image: PBA,
             techStack:"Next, React, TypeScript, Figma, Material UI, Firebase", 
-            githubLink: "https://github.com/rafael-saraiva-mielczarski/React-Portfolio",
+            githubLink: "https://github.com/rafael-saraiva-mielczarski/Piggy-Bank-App",
         },
         {
             id: "2",
             title: "Piggy Bank App Landing Page",
             description:
-            "The page you are in is my most recent project! Updating as new thing are being builtThe page you are in is my most recent project! Updating as new thing are being builtThe page you are in is my most recent project! Updating as new thing are being built",
+            "This is the landing page for the Piggy Bank App. I made it so the product has a more professional structure to it. Also, I had never built a landing page to a product of mine, thinking of the design was something diferent to me. It is hosted on Vercel",
             image: pic,
             techStack:"Next, React, JavaScript, Material UI", 
-            githubLink: "https://github.com/rafael-saraiva-mielczarski/React-Portfolio",
+            githubLink: "https://github.com/rafael-saraiva-mielczarski/PBA-Landing-Page",
         },
         {
             id: "3",
             title: "Portfolio",
             description:
-            "The page you are in is my most recent project! Updating as new thing are being builtThe page you are in is my most recent project! Updating as new thing are being builtThe page you are in is my most recent project! Updating as new thing are being built",
+            "This is the page you are in, it is my most recent project! Built with Next, React and Material UI, this is project is hosted on Vercel. The design was developed by me in Figma as well. Updating as I develop new projects!",
             image: NextPort,
-            techStack:"Javascript, React, Boostrap, Figma", 
-            githubLink: "https://github.com/rafael-saraiva-mielczarski/React-Portfolio",
+            techStack:"Next, React, Material UI, Figma", 
+            githubLink: "https://github.com/rafael-saraiva-mielczarski/Portfolio",
         },
         {
             id: "4",
             title: "React Portfolio",
             description:
-            "When I first started learning React I wanted to create a page that would serve as a online resume.",
-            image: logo,
+            "When I first started learning React I wanted to create a page that would serve as a online resume. I had the ideia of building some really simple to practice and show my projects and a little bit more about me, so I came up with this Portfolio.",
+            image: ReactPort,
             techStack:"Javascript, React, Boostrap, Figma", 
             githubLink: "https://github.com/rafael-saraiva-mielczarski/React-Portfolio",
         },
@@ -93,15 +95,15 @@ export default function Projects() {
                 <p className={styles.subtitle}>By clicking on the image you will be redirected to the respective project Github Repositorie</p>
                 <div className={styles.projects}>
                     <div>
-                    <a href={projects[count].githubLink}><Image src={projects[count].image} alt="project" className={styles.projectImage} /></a>
+                    <a href={projects[count].githubLink}><Image src={projects[count].image} alt="project preview" className={styles.projectImage} /></a>
                     </div>
                     <div className={styles.projectText} key={projects[count].id}>
                         <h1>{projects[count].title}</h1>
                         <p>{projects[count].description}</p>
-                        <p>Techonologies Used: <p style={{fontWeight: "bold"}}>{projects[count].techStack}</p></p>
+                        <p>Techonologies Used: <br /><span style={{fontWeight: "bold"}}>{projects[count].techStack}</span></p>
                         <div className={styles.buttons}>
                             <Button onClick={() => setCount(count - 1)} disabled={count === 0 ? true : false}>Previous</Button>
-                            <Button onClick={() => (setCount(count + 1))} disabled={count === 4 ? true : false}>Next</Button>
+                            <Button onClick={() => (setCount(count + 1))} disabled={count === 6 ? true : false}>Next</Button>
                         </div>
                     </div>
                 </div>
