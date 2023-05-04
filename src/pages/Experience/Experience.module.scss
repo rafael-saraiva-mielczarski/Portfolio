@@ -126,7 +126,10 @@
         }
     
         .blur {
-            display: none;
+            top: 1800px;
+            filter: blur(150px);
+            width: 35%;
+            height: 70%;
         }
     }
 }

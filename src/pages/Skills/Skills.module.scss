@@ -89,7 +89,11 @@
         }
     
         .blur {
-            display: none;
+            left: 100px;
+            top: 950px;
+            filter: blur(130px);
+            width: 40%;
+            height: 60%;
         }
     }
 }

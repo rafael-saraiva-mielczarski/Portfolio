@@ -74,7 +74,10 @@
         }
     
         .blur {
-            display: none;
+            top: 180px;
+            filter: blur(125px);
+            width: 35%;
+            height: 55%;
         }
     }    
 }
