@@ -19,20 +19,20 @@ export default function Experience() {
                     <div className={styles.xpJobs}>
                         <div className={styles.jobs}>
                             <span><BadgeIcon fontSize="medium" sx={{color: "#FF0BE7"}}/></span>
-                            <div>
+                            <article>
                             <h3>Software Developer Intern - IBM -  June 2022 / Present</h3>
                             <p>- Building SPAs with React, Angular and Typescritp. Always caring for the user Experience, Figma for screens prototypes.</p>
                             <p>- Strong usage of APIs requests.</p>
                             <p>- Strong usage of Git for Version Control and Scrum as an agile methodologie.</p>
                             <p>- Python development for an automation solution.</p>
-                            </div>
+                            </article>
                         </div>
                         <div className={styles.jobs}>
                             <span><PostAddIcon fontSize="medium" sx={{color: "#FF0BE7"}}/></span>
-                            <div>
+                            <article>
                             <h3>Side Projects</h3>
                             <p>My side projects are mainly for studies purpose, I like to practice what Im learning by building real world applications. You will be able to discover all of them above.</p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                     <div className={styles.blur}></div>

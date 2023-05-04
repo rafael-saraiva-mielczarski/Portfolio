@@ -95,11 +95,11 @@ export default function Projects() {
             <Container>
                 <h1 className={styles.title}>Projects</h1>
                 <p className={styles.subtitle}>By clicking on the image you will be redirected to the respective project Github Repositorie</p>
-                <div className={styles.projects}>
+                <section className={styles.projects}>
                     <div>
                     <a href={projects[count].githubLink}><Image src={projects[count].image} alt="project preview" className={styles.projectImage} /></a>
                     </div>
-                    <div className={styles.projectText} key={projects[count].id}>
+                    <article className={styles.projectText} key={projects[count].id}>
                         <h1>{projects[count].title}</h1>
                         <p>{projects[count].description}</p>
                         <p>Techonologies Used: <br /><span style={{fontWeight: "bold"}}>{projects[count].techStack}</span></p>
@@ -107,8 +107,8 @@ export default function Projects() {
                             <Button onClick={() => setCount(count - 1)} disabled={count === 0 ? true : false}>Previous</Button>
                             <Button onClick={() => (setCount(count + 1))} disabled={count === 6 ? true : false}>Next</Button>
                         </div>
-                    </div>
-                </div>
+                    </article>
+                </section>
             </Container>
         </div>
     )

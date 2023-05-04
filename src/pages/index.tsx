@@ -4,6 +4,7 @@ import About from './About/About'
 import Skills from './Skills/Skills'
 import Experience from './Experience/Experience'
 import Projects from './Projects/Projects'
+import Contacts from './Contacts/Contacts'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <Contacts />
     </>
   )
 }
