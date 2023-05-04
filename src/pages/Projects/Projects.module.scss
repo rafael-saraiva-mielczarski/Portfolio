@@ -48,16 +48,6 @@
                 margin-bottom: 20px;
             }
 
-            .icons {
-                display: flex;
-                justify-content: space-evenly;
-
-                .icon {
-                    width: 60px;
-                    height: 100%;
-                }
-            }
-
             .buttons {
                 display: flex;
                 justify-content: space-between;
@@ -77,4 +67,36 @@
                 }
             }
         }
+}
+
+@media only screen and (max-width: 600px){ 
+    .title {
+        font-size: 50px;
+    }
+    
+    
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        z-index: 1;
+    
+            .projectImage {
+                margin-right: 0;
+            }
+    
+            .projectText {
+                text-align: center;
+                width: auto;
+                margin-left: 0;
+    
+                .buttons {
+    
+                    button {
+                        width: 40%;
+                    }
+                }
+            }
+    }    
 }
