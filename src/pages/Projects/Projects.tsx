@@ -3,7 +3,6 @@ import { useState } from "react";
 import styles from './Projects.module.scss'
 import Image, { StaticImageData } from "next/image";
 import Button from "@mui/material/Button";
-import logo from '../../assets/LogoRS.png'
 import NextPort from '../../assets/nextPortfolio.png'
 import ReactPort from '../../assets/ReactPort.png'
 import PBA from '../../assets/PBA.png'
@@ -28,7 +27,7 @@ export default function Projects() {
             id: "1",
             title: "Piggy Bank App",
             description:
-            "This was my final and personal project to my College's Degree, fully build and developed by me, from the Figma design to the code. It is a financial application that allow users take control of their finances. Mainly a Front-end app, with the database and authentication made with Firebase.",
+            "This was my final and personal project to my College's Degree, fully build and developed by me, from the Figma design to the code. It is a financial application that allow users take control of their finances. Mainly a Front-end app, used Firebase database and authentication.",
             image: PBA,
             techStack:"Next, React, TypeScript, Figma, Material UI, Firebase", 
             githubLink: "https://github.com/rafael-saraiva-mielczarski/Piggy-Bank-App",
