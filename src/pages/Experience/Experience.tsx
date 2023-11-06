@@ -12,7 +12,7 @@ export default function Experience() {
                 <div className={styles.experience}>
                     <div className={styles.xpText}>
                         <p>Take a brief look trough what I have done in my career. For a more detailed look feel free to download my resume in the button below.</p>
-                        <a href="CV Rafael.pdf" target="_blank" rel="noopener noreferrer"download="Resume - Rafael Saraiva">
+                        <a href="CV-Rafael.pdf" target="_blank" rel="noopener noreferrer"download="Resume - Rafael Saraiva">
                         <Button className={styles.button}>Download Resume</Button>
                         </a>
                     </div>
